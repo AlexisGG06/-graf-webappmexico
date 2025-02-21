@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px; /* Mantiene la misma separación */
+  margin-top: 30px;
+}
+
+.color-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="range"] {
+  width: 200px;
+  margin: 10px 0;
+}
+
+.flag-section {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+/* Espaciador blanco con las arrobas */
+.separator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 300px;
+  background-color: white;
+}
+
+.separator-content {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+}

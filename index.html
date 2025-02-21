@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandera de México</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bandera de México</h1>
+    <div class="container">
+        <!-- Sección Verde -->
+        <div class="color-section">
+            <label>Esperanza</label>
+            <input type="range" id="greenSlider" min="0" max="120" value="90">
+            <span id="greenHex">#008000</span>
+            <div class="flag-section" id="greenBox"></div>
+        </div>
+
+        <!-- Separador (Espacio en blanco con @@@) -->
+        <div class="separator">
+            <label>Unidad</label>
+            <span id="whiteHex">#FFFFFF</span>
+            <div class="separator-content">
+                <p>@@@@@@</p>
+                <p>@@@@@@</p>
+                <p>@@@@@@</p>
+            </div>
+        </div>
+
+        <!-- Sección Roja -->
+        <div class="color-section">
+            <label>Sangre de nuestros héroes nacionales</label>
+            <input type="range" id="redSlider" min="0" max="360" value="0">
+            <span id="redHex">#800000</span>
+            <div class="flag-section" id="redBox"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
